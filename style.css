@@ -53,8 +53,10 @@ body {
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
+    transition: transform 0.8s;
 }
 
 #adicionarItemBtn:hover {
     background-color: #7b68ee;
+    transform: scale(1.02);
 }
