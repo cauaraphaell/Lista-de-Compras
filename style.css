@@ -1,0 +1,60 @@
+body {
+    background-color: #eae5fa;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0f003a;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.container h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#listaDeCompras {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#listaDeCompras li {
+    background-color: #3a3354;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+#itemInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3a3354;
+    color: #ffffff;
+}
+
+#adicionarItemBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #432dd4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#adicionarItemBtn:hover {
+    background-color: #7b68ee;
+}
